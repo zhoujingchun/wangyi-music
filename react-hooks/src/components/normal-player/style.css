@@ -1,0 +1,228 @@
+.normal-player{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 150;
+    background-color: white;
+
+}
+.hide{
+    visibility: hidden;
+}
+.background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+    filter: blur(20px);
+}
+.background img{
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    position: relative;
+    margin-bottom: 25px;
+}
+.back{
+
+    position :absolute;
+    top: 0;
+    left: 6px;
+    z-index: 50;
+}
+
+.icon-back{
+    display: block;
+    padding: 9px;
+    font-size: 15px;
+    transform: rotate(-90deg)
+}
+.title{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+     color: black;
+    font-family: 宋体;
+
+}
+.subtitle{
+    line-height: 20px;
+    text-align: center;
+}
+.middle{
+    position: fixed;
+    width: 100%;
+    top: 80px;
+    bottom: 170px;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.middle-l{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 80%;
+
+}
+.cd-wrapper{
+    position: absolute;
+    left: 10%;
+    top: 0;
+    width: 80%;
+    height: 100%;
+}
+.cd{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 10px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    animation: rotate 20s linear infinite
+}
+@keyframes rotate{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(359deg)}
+}
+
+
+
+.pause{
+    animation-play-state: paused
+
+}
+.image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.playing-lyric-wrapper{
+    width: 80%;
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.playing-lyric{
+    height: 20px;
+    line-height: 20px;
+}
+.middle-r{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.lyric-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0;
+
+}
+.lyric-wrapper-item{
+
+
+}
+.bottom{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 10%;
+}
+.dot-wrapper{
+    text-align: center;
+    font-size: 0;
+}
+.dot{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+}
+.i-left1{
+    position: absolute;
+    left: 10%;
+    top: 34%;
+    color: white;
+
+}
+.i-left1 i{
+    font-size: 207%;
+}
+
+
+
+.i-left2{
+    position: absolute;
+    left: 31%;
+    top: 23%;
+    font-size: 207%;
+    color: white;
+
+}
+.i-left2{
+
+}
+
+.i-center{
+    position: absolute;
+    left: 45%;
+    top: 15%;
+    color: white;
+    font-size: 300%;
+    font-family: 宋体;
+    font-style:normal ;
+}
+
+.i-right1{
+    position: absolute;
+    left: 81%;
+    top:24%;
+    color: white;
+    font-size: 207%;
+}
+
+
+.i-right2{
+    position: absolute;
+    left:64%;
+    top:36%;
+    color: white;
+}
+.i-right2 i{
+    font-size: 207%;
+}
+
+.add-opacity{
+    opacity: 0.4 !important;
+}
+.current {
+    color:white;
+    font-size:120%;
+    transition: ease-in-out .5s ;
+}
+
+
+
+

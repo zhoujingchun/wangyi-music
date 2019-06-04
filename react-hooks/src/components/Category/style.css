@@ -1,0 +1,51 @@
+.banner-img{
+    width: 90%;
+    vertical-align: top;
+    touch-action: none;
+    border-radius: 6%;
+}
+#repertoire{
+    margin:20px 0 90px 31px;
+    border-radius: 1px;
+    position: relative;
+    background-color: white;
+
+
+}
+.slider-list{
+    height: 153px!important;
+}
+
+.index-container {
+    display: inline-block;
+   left: 126px;
+    top: 111px;
+    height: 10px;
+    width: auto;
+    position: absolute;
+}
+ .index-container ul li {
+    list-style: none;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: #ccc;
+    margin: 0 3px;
+}
+
+
+ .index-container ul li.selected {
+    background-color: rgb(233, 32, 61);
+}
+
+
+
+/*
+
+//<img className='shop' src="http://p1.music.126.net/wqcx36lB0mOMiOI5UPc4HA==/109951164040701983.jpg" alt=""/>
+
+//<img className='shop' src="http://p1.music.126.net/TaRhZ-Ra8UID-BUX5ywguA==/109951164040745655.jpg" alt=""/>
+
+// <img className='shop' src="http://p1.music.126.net/iheFD5LyYDqcuPzA3YXBnQ==/109951164040734168.jpg" alt=""/>
+*/

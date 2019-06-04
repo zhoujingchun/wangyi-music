@@ -1,0 +1,49 @@
+.slide {
+    height:248px;
+    position: relative;
+
+}
+.slide ul{
+    list-style: none;
+
+    display: inline-block;
+}
+
+.slide li{
+    position: absolute;
+    left:200px;
+    top:0;
+
+}
+.slide li p{
+    background-color: white;
+    width: 162.5px;
+    height: 45px;
+    margin-top: -4px;
+    box-shadow:1px 1px 3px  #bbbbbb;
+    box-sizing: content-box;
+
+}
+
+.slide li p i{
+    font-size: 13px;
+    margin-left: 2px;
+    font-style: normal;
+   width:100% ;
+    font-family: 黑体;
+    display: inline-block;
+    margin-top: 5px;
+
+}
+.slide li img{
+    width:162.5px;
+    border-radius: 5px 5px 0 0;
+}
+.arrow{
+    opacity: 0;
+}
+/*
+
+width:200, top:120, left:0, opacity:80, zIndex:3
+
+*/

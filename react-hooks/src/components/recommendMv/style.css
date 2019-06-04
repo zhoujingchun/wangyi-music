@@ -1,0 +1,79 @@
+#recommend-mv{
+    margin-top: 40px;
+    height: 400px;
+    display: inline-block;
+
+
+}
+#recommend-mv h4{
+    margin-left: 6%;;
+    font-size: 17px;
+
+}
+
+#recommend-mv img{
+    width: 88%;
+
+    margin-left: 6%;
+    border-radius: 17px 17px 0 0;
+    margin-top: 5%;
+
+
+}
+
+.mv-item{
+    position: relative;
+}
+.bofang{
+    position: absolute;
+    left: 44%;
+    top: 38%;
+    opacity:0.5 ;
+}
+.bofang i{
+    font-size: 50px;
+    color: white;
+}
+
+.count{
+    position: absolute;
+    left: 9%;
+    top: 82%;
+    color: white;
+    font-size:14px;
+}
+.shichang{
+
+    position: absolute;
+    left: 74%;
+    top: 82%;
+    color: white;
+    font-size: 12px;
+    font-family:黑体;
+}
+.shichang i{
+    margin-left:17%;
+}
+
+
+
+.mv-detail{
+    background-color: #dddddd;
+    text-align: center;
+    height: 19%;
+    width: 88%;
+    margin-left:6%;
+    border-radius: 0 0 17px 17px ;
+    margin-top: -1%;
+}
+
+.mv-item-name{
+    line-height: 41px;
+    height:34px
+
+}
+.item-border{
+    border-bottom: #dddddd 5px solid;
+    height: 305px;
+
+}

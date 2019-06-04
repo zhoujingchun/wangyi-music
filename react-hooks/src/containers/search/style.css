@@ -1,0 +1,78 @@
+#root{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.search-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.search-history{
+    position: relative;
+    margin-top: 5%;
+    height: 60px;
+    width: 100%;
+}
+
+#title-{
+    position: absolute;
+    left:4%;
+    color: black;
+    font-size: 96%;
+}
+.search-history .icon-shanchu{
+    position: absolute;
+    left: 90%;
+}
+.search-history-list{
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    top: 37%;
+    white-space:nowrap;
+    left: 1%;
+
+}
+.search-history-list .slider-list{
+    height: 20% !important;
+}
+.search-list-ul {
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    list-style: none;
+    width: 300%;
+
+}
+.search-history-list li{
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: #cccccc;
+    padding:0 2% 0 2%;
+    border-radius: 45%;
+    text-align: center;
+    height: 5%;
+    width: auto !important;
+    opacity: 0.5;
+}
+.search-container h4{
+    margin-top: 10%;
+    margin-left: 2%;
+    font-family: 宋体;
+
+
+}
+
+/*
+1 white-space:nowrap; overflow:hidden; text-overflow:ellipsis; 
+
+white-space:nowrap; 是禁止换行。
+
+overflow:hidden; 超出容器隐藏，不然会撑破容器。
+text-overflow:ellipsis; 让多出的内容以省略号...来表达。
+
+*/

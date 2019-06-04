@@ -1,0 +1,40 @@
+#search-header {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+#search-header .input-container {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 5px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#search-header .input-container i {
+    color: #ccc;
+}
+#search-header .back-icon {
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+}
+.search-user{
+    position: absolute;
+    left: 90%;
+    top: 21%;
+    font-size: 150%;
+    color: mistyrose;
+
+}
+.input-container .icon-search{
+    font-size: 147%;
+
+
+}
+.icon-prev{
+    font-size: 20px;
+}

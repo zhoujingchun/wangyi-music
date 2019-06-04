@@ -1,0 +1,45 @@
+
+#recommend{
+    margin: 0 auto;
+
+}
+#recommend h4{
+    margin-left: 25px;
+}
+.recommend-list  {
+    display: grid;
+    grid-template-rows: 1fr 1fr  1fr;
+    grid-template-columns: 1fr 1fr ;
+    margin: 10px 15px 0 18px;
+    grid-gap:10px;
+
+    width: auto;
+
+
+}
+.recommend-list .recommend-item{
+
+
+}
+
+.item-playCount{
+    margin: -155px 0 0 102px;
+    position: absolute;
+
+}
+.item-playCount i{
+   font-size: 10px;
+    color: white;
+}
+.item-font{
+    font-size: 15px;
+    margin-left: 7px;
+}
+.recommend-list .recommend-item img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,21 @@
+#common-header {
+
+    color: black;
+    padding: 15px 10px;
+    text-align: center;
+    position: relative;
+    border-bottom: #dddddd solid 1px;
+    font-family: '楷体' ;
+    font-size: 12px;
+}
+#common-header h1 {
+    display: inline;
+    font-size: 16px;
+    line-height: 1;
+}
+#common-header .back-icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 10px;
+}

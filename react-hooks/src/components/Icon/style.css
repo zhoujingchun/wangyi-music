@@ -1,0 +1,32 @@
+#Icon{
+    position: absolute;
+    left:42px;
+    top:223px;
+
+
+}
+#Icon ul li{
+    float: left;
+    list-style: none;
+    margin-left: 34px;
+}
+#Icon ul li i{
+    font-size:21px;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+#font-command {
+    float: left;
+    list-style: none;
+    margin-left: -11px;
+    font-size: 13px;
+    margin-top: 6px;
+
+}

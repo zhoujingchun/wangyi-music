@@ -1,0 +1,86 @@
+.song-list-container{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    margin-top: 10%;
+
+    overflow-x: hidden;
+
+}
+.song-list-head-left{
+    position: absolute;
+    left: 5%;
+    height: 5%;
+    top: 3%;
+    width: 50%;
+}
+.song-list-head-left i{
+    float: left;
+    font-size:140%;
+}
+.song-list-head-left p{
+    float: left;
+    margin-left:7%;
+
+
+}
+.song-list-head-left p span{
+    color: #dddddd;
+    font-size: 13px;
+}
+.song-list-head-right{
+    position: absolute;
+     left: 65%;
+      top: 2%;
+    background-color: red;
+    width:120px;
+    height: 40px;
+    border-radius: 20px;
+
+
+}
+.song-list-head-right p{
+     color: white;
+    text-align: center;
+    line-height: 35px;
+
+}
+.song-list{
+    position: absolute;
+    left: 5%;
+    top: 13%;
+    width: 100%;
+    height: 100%;
+
+}
+.song-list-item{
+    position: relative;
+    height:10%;
+    width: 100%;
+
+
+
+
+}
+.song-list-item p:first-child{
+    color: #333333;
+    position: absolute;
+    top: 13%;
+    left: -3%;
+
+
+}
+.song-list-item-name{
+   position: absolute;
+    left: 6%;
+     top: 5%;
+
+}
+.song-list-item-ar{
+    color:#bbbbbb;
+    left: 6%;
+    top: 35%;
+    position: absolute;
+
+}

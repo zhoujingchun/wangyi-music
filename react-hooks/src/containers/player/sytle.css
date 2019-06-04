@@ -1,0 +1,60 @@
+.player-container{
+
+}
+.arist-pic img {
+    width:12%;
+    height: 84%;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+
+
+}
+
+.min-player{
+    background-color:white;
+    width:100%;
+    height: 8%;
+    position:fixed;
+    z-index: 8;
+    bottom: 0px;
+    border-top: #dddddd 1px solid;
+
+}
+
+.song-control{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    margin-top: -14%;
+    margin-left: 70%;
+
+}
+.song-play{
+    position: absolute;
+    left: 18%;
+    top: 15%;
+
+}
+.song-play i{
+    font-size:250%;
+    color: #999999;
+}
+.song-item{
+    position: absolute;
+    left:62%;
+    font-size:240%;
+    color:black;
+}
+.bofang-playing{
+
+    font-size:230% !important;
+    left:62% !important;
+
+}
+
+
+
+
+
+

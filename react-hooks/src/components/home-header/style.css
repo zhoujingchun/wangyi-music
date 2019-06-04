@@ -1,0 +1,52 @@
+.container{
+    position: relative;
+    height: 44px;
+    text-align: center;
+    font-size: 0;
+    color: white;
+    background: linear-gradient(to right , gold, yellow);;
+}
+
+.my{
+
+    display: inline-block;
+    vertical-align: top;
+    line-height: 44px;
+    font-size: 25px;
+    margin-left:14px ;
+    position: absolute;
+    left: 0px;
+
+}
+.my  a{
+ text-decoration: none;
+}
+.my p i{
+    color: white;
+
+}
+.logo{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6px;
+    width: 30px;
+    height: 32px;
+    margin-right: 9px;
+    background-image: url("./logo@2x.png");
+    background-size: 30px 32px;
+    overflow: hidden;
+}
+.font{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 44px;
+    font-size: 18px
+}
+.icon{
+    display: block;
+    float: right;
+    padding: 8px;
+    font-size: 23px;
+    color: white;
+
+}
